@@ -156,10 +156,10 @@
 
 
 (define twitter-oauth (new oauth-single-user%  
-     [consumer-key "FNdM5Cve6zDULYGeENafpncfB"]
-     [consumer-secret "Q0qezXAGOq130uLSQvq7g84CwP6yK4vCIoI1hRyUaFIwqNYlbe"]
-     [access-token "808671618-xagI8SsSrarkJdbNXciXPIUAjA2nSjieI7lJOkJv"]
-     [access-token-secret "pohTt67sUHb04Ki4q4LfeLbDP9y30mjHrABwEFPdF27Cw"]))
+     [consumer-key "FRQfmRL7Whg57Y5z5KlnDFHPp"]
+     [consumer-secret "MLAnMR072I3nQcpms9gOLUa0A0f7BOO4fVD1a73QmYKjxSfOq0"]
+     [access-token "324907777-1GxbteyeWHWO930rfcPZtQL74it86HKHxmt4hN3j"]
+     [access-token-secret "h09QV09q77S9LAKwP0kBT83NM4DabspioNnIlWL12oWmE"]))
 
 (define raw_tweets (car
   (send twitter-oauth get-request
